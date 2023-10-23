@@ -61,6 +61,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .header__list{
     display: flex;
@@ -386,4 +387,48 @@ header{
 .something{
     display: flex;
     justify-content: space-evenly;
+}
+.bottomest{
+    display: flex;
+    justify-content: end;
+}
+.clerksy__img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+.clerksy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    padding: 20px 10px;
+}
+.clerksy__title{
+    color: #163A24;
+}
+.clerksy__text{
+    color: #163A24;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.bottomer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+.bottomer__list{
+    display: flex;
+    justify-content: center;
+}
+.bottomer__item{
+    margin-left: 20px;   
+}
+.bottomer__text{
+    color: #163A24;
+    font-family: fantasy;
+}
+.bottomer__item{
+    color: green;
 }
